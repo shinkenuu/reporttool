@@ -1,0 +1,14 @@
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\obj\Debug\ReportTool.Business.csprojResolveAssemblyReference.cache
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\ReportTool.Business.dll.config
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\ReportTool.Business.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\ReportTool.Business.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\EntityFramework.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\ReportTool.Repository.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\ReportTool.Repository.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\EntityFramework.xml
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\obj\Debug\ReportTool.Business.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\obj\Debug\ReportTool.Business.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\JATO.Common.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Business\bin\Debug\JATO.Common.pdb

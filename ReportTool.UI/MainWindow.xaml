@@ -1,0 +1,27 @@
+﻿<Window x:Class="ReportTool.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReportTool.UI"
+        mc:Ignorable="d"
+        Title="Report Tool - Main" Height="189.02" Width="244.036" Background="#FF3E3E3E">
+    <Grid HorizontalAlignment="Left" Height="157" Margin="10,0,0,0" VerticalAlignment="Top" Width="224" RenderTransformOrigin="-0.12,-0.38">
+        <Button x:Name="button" Content="CV - Weekly" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="204" Click="CvWeekly_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FF7C7C7C" Opacity="0.995"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_Copy" Content="CV - Monthly" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="204" Click="CvMonthly_Click">
+            <Button.BorderBrush>
+                <SolidColorBrush Color="#FF707070" Opacity="0"/>
+            </Button.BorderBrush>
+            <Button.Background>
+                <SolidColorBrush Color="#FF7C7C7C" Opacity="0.995"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

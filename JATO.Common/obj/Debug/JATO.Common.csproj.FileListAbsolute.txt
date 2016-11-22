@@ -1,0 +1,5 @@
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.Common\bin\Debug\JATO.Common.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.Common\bin\Debug\JATO.Common.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.Common\obj\Debug\JATO.Common.csprojResolveAssemblyReference.cache
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.Common\obj\Debug\JATO.Common.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.Common\obj\Debug\JATO.Common.pdb

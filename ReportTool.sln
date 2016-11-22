@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportTool.UI", "ReportTool.UI\ReportTool.UI.csproj", "{14217762-698D-401D-A5EA-66D29FBC073E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportTool.Core", "ReportTool.Core\ReportTool.Core.csproj", "{1228E094-5B4E-46DB-A666-0D9460C57265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportTool.Business", "ReportTool.Business\ReportTool.Business.csproj", "{33820413-9B6F-4988-9455-7D7FF77623B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportTool.Repository", "ReportTool.Repository\ReportTool.Repository.csproj", "{637D057A-A006-4892-95D9-A5680B6A0F79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JATO.Common", "JATO.Common\JATO.Common.csproj", "{92D1A011-4C13-4330-AE35-FB63B063CBB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportTool.BusinessTests", "ReportTool.BusinessTests\ReportTool.BusinessTests.csproj", "{3D884860-3858-4C92-BE7F-5C36FE9F892D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JATO.CommonTests", "JATO.CommonTests\JATO.CommonTests.csproj", "{768182B7-2E52-40AA-A7B2-E81ACF4E9420}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14217762-698D-401D-A5EA-66D29FBC073E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14217762-698D-401D-A5EA-66D29FBC073E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14217762-698D-401D-A5EA-66D29FBC073E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14217762-698D-401D-A5EA-66D29FBC073E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1228E094-5B4E-46DB-A666-0D9460C57265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1228E094-5B4E-46DB-A666-0D9460C57265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1228E094-5B4E-46DB-A666-0D9460C57265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1228E094-5B4E-46DB-A666-0D9460C57265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33820413-9B6F-4988-9455-7D7FF77623B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33820413-9B6F-4988-9455-7D7FF77623B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33820413-9B6F-4988-9455-7D7FF77623B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33820413-9B6F-4988-9455-7D7FF77623B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637D057A-A006-4892-95D9-A5680B6A0F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637D057A-A006-4892-95D9-A5680B6A0F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637D057A-A006-4892-95D9-A5680B6A0F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637D057A-A006-4892-95D9-A5680B6A0F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92D1A011-4C13-4330-AE35-FB63B063CBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92D1A011-4C13-4330-AE35-FB63B063CBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92D1A011-4C13-4330-AE35-FB63B063CBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92D1A011-4C13-4330-AE35-FB63B063CBB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D884860-3858-4C92-BE7F-5C36FE9F892D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D884860-3858-4C92-BE7F-5C36FE9F892D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D884860-3858-4C92-BE7F-5C36FE9F892D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D884860-3858-4C92-BE7F-5C36FE9F892D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768182B7-2E52-40AA-A7B2-E81ACF4E9420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768182B7-2E52-40AA-A7B2-E81ACF4E9420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768182B7-2E52-40AA-A7B2-E81ACF4E9420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768182B7-2E52-40AA-A7B2-E81ACF4E9420}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://shinkenuu.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ReportTool.Core\\ReportTool.Core.csproj
+		SccProjectName1 = ReportTool.Core
+		SccLocalPath1 = ReportTool.Core
+		SccProjectUniqueName2 = ReportTool.Business\\ReportTool.Business.csproj
+		SccProjectName2 = ReportTool.Business
+		SccLocalPath2 = ReportTool.Business
+		SccProjectUniqueName3 = ReportTool.UI\\ReportTool.UI.csproj
+		SccProjectName3 = ReportTool.UI
+		SccLocalPath3 = ReportTool.UI
+		SccProjectUniqueName4 = ReportTool.Repository\\ReportTool.Repository.csproj
+		SccProjectName4 = ReportTool.Repository
+		SccLocalPath4 = ReportTool.Repository
+		SccProjectUniqueName5 = JATO.Common\\JATO.Common.csproj
+		SccProjectName5 = JATO.Common
+		SccLocalPath5 = JATO.Common
+		SccProjectUniqueName6 = ReportTool.BusinessTests\\ReportTool.BusinessTests.csproj
+		SccProjectName6 = ReportTool.BusinessTests
+		SccLocalPath6 = ReportTool.BusinessTests
+		SccProjectUniqueName7 = JATO.CommonTests\\JATO.CommonTests.csproj
+		SccProjectName7 = JATO.CommonTests
+		SccLocalPath7 = JATO.CommonTests
+	EndGlobalSection
+EndGlobal
