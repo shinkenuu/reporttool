@@ -5,23 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ReportTool.UI"
         mc:Ignorable="d"
-        Title="Report Tool - Main" Height="189.02" Width="244.036" Background="#FF3E3E3E">
-    <Grid HorizontalAlignment="Left" Height="157" Margin="10,0,0,0" VerticalAlignment="Top" Width="224" RenderTransformOrigin="-0.12,-0.38">
-        <Button x:Name="button" Content="CV - Weekly" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="204" Click="CvWeekly_Click">
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#FF707070" Opacity="0"/>
-            </Button.BorderBrush>
-            <Button.Background>
-                <SolidColorBrush Color="#FF7C7C7C" Opacity="0.995"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="button_Copy" Content="CV - Monthly" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" Width="204" Click="CvMonthly_Click">
-            <Button.BorderBrush>
-                <SolidColorBrush Color="#FF707070" Opacity="0"/>
-            </Button.BorderBrush>
-            <Button.Background>
-                <SolidColorBrush Color="#FF7C7C7C" Opacity="0.995"/>
-            </Button.Background>
-        </Button>
+        Title="Report Tool" Height="172.019" Width="493.491">
+    <Grid Background="#FF3E3E3E">
+        <ComboBox x:Name="comboBox_ReportName" HorizontalAlignment="Left" Margin="246,42,0,0" VerticalAlignment="Top" Width="230" Background="#FF3E3E3E" SelectionChanged="ComboBox_ReportName_SelectionChanged"/>
+        <Label x:Name="label_reportFormat" Content="Report Format" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="230" Foreground="#FFF3F3F3"/>
+        <Label x:Name="label_reportName" Content="Report Name" HorizontalAlignment="Left" Margin="246,10,0,0" VerticalAlignment="Top" Width="230" Foreground="#FFF3F3F3"/>
+        <RadioButton x:Name="radioButton_EvolutionReport" Content="Evolution" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top" Foreground="#FFF3F3F3"/>
+        <DatePicker HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" SelectedDateChanged="DatePicker_EarlyDate_SelectedDateChanged" Background="Transparent"/>
+        <DatePicker HorizontalAlignment="Left" Margin="138,99,0,0" VerticalAlignment="Top" SelectedDateChanged="DatePicker_LaterDate_SelectedDateChanged"/>
+        <Button x:Name="button_Report" Content="Report!" HorizontalAlignment="Left" Margin="247,99,0,0" VerticalAlignment="Top" Width="229" Background="#FF505050" Foreground="#FFF3F3F3" Click="Button_Report_Click"/>
+        <Label x:Name="label_earlyDatePicker" Content="Early Date" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top" Width="115" Foreground="#FFF3F3F3"/>
+        <Label x:Name="label_laterDatePicker" Content="Later Date" HorizontalAlignment="Left" Margin="130,69,0,0" VerticalAlignment="Top" Width="115" Foreground="#FFF3F3F3"/>
+
     </Grid>
 </Window>

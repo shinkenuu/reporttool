@@ -59,6 +59,9 @@
     <Compile Include="CV\MONTHLY_CV.cs" />
     <Compile Include="CV\WEEKLY_CV.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RT\MONTHLY_MSRP.cs" />
+    <Compile Include="RT\MSRP_HISTORY.cs" />
+    <Compile Include="RT\RtEntity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

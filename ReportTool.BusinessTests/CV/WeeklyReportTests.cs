@@ -48,8 +48,8 @@ namespace ReportTool.Business.CV.Tests
                 entityList.Add(weeklyEntity);
             }
 
-            WeeklyReport weeklyReport = new WeeklyReport(entityList);
-            weeklyReport.GenerateReport();
+            //WeeklyReport weeklyReport = new WeeklyReport(entityList);
+            //weeklyReport.GenerateReport();
 
             //Assert
         

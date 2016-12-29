@@ -1,0 +1,14 @@
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\obj\Release\ReportTool.BusinessTests.csprojResolveAssemblyReference.cache
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\ReportTool.BusinessTests.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\ReportTool.BusinessTests.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\ReportTool.Business.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\ReportTool.Repository.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\JATO.Common.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\EntityFramework.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\ReportTool.Business.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\ReportTool.Repository.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\JATO.Common.pdb
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\bin\Release\EntityFramework.xml
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\obj\Release\ReportTool.BusinessTests.dll
+D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.BusinessTests\obj\Release\ReportTool.BusinessTests.pdb

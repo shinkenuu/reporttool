@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ReportTool.Core;
+
 
 namespace ReportTool.UI
 {
@@ -20,21 +22,69 @@ namespace ReportTool.UI
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private string[] EvolutionReports = new string[]
+        {
+            "CV Weekly",
+            "CV Monthly",
+            "MSRP History",
+            "Weighted MSRP"
+        };
+
+        public ReportCommand Command { get; private set; }
+
+
         public MainWindow()
         {
             InitializeComponent();
+            radioButton_EvolutionReport.Checked += OnEvolutionChecked;
+            Command = new ReportCommand() { EarlyDate = DateTime.MinValue, LaterDate = DateTime.MaxValue };
         }
 
-        private void CvWeekly_Click(object sender, RoutedEventArgs e)
+        
+        private void OnEvolutionChecked(object sender, EventArgs e)
         {
-            MessageBox.Show("Button not implemented");
-            throw new NotImplementedException();
+            Command.ReportFormat = "evolution";
+            comboBox_ReportName.ItemsSource = EvolutionReports;
+            comboBox_ReportName.SelectedIndex = 0;
         }
 
-        private void CvMonthly_Click(object sender, RoutedEventArgs e)
+
+        private void ComboBox_ReportName_SelectionChanged(object sender, EventArgs e)
         {
-            MessageBox.Show("Button not implemented");
-            throw new NotImplementedException();
+             Command.ReportName = comboBox_ReportName.SelectedItem.ToString().ToLower().Replace(" ", "");
+        }
+
+
+
+        private void DatePicker_EarlyDate_SelectedDateChanged(object sender, EventArgs e)
+        {
+            // ... Get DatePicker reference.
+            var picker = sender as DatePicker;
+            
+            Command.EarlyDate = picker.SelectedDate ?? DateTime.MinValue;
+        }
+
+
+
+        private void DatePicker_LaterDate_SelectedDateChanged(object sender, EventArgs e)
+        {
+            // ... Get DatePicker reference.
+            var picker = sender as DatePicker;
+
+            Command.LaterDate = picker.SelectedDate ?? DateTime.MaxValue;
+        }
+
+
+        private void Button_Report_Click(object sender, EventArgs e)
+        {
+            if(Command.IsReady)
+            {
+                Program.Main(Command);
+                MessageBox.Show("Report Complete");
+            }
         }
     }
+
+
 }
