@@ -1,8 +1,0 @@
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\bin\Debug\JATO.CommonTests.dll
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\bin\Debug\JATO.CommonTests.pdb
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\bin\Debug\JATO.Common.dll
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\bin\Debug\JATO.Common.pdb
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\obj\Debug\JATO.CommonTests.csprojResolveAssemblyReference.cache
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\obj\Debug\JATO.CommonTests.dll
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\JATO.CommonTests\obj\Debug\JATO.CommonTests.pdb

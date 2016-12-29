@@ -1,5 +1,0 @@
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Model\bin\Debug\ReportTool.Model.dll
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Model\bin\Debug\ReportTool.Model.pdb
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Model\obj\Debug\ReportTool.Model.csprojResolveAssemblyReference.cache
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Model\obj\Debug\ReportTool.Model.dll
-D:\VS Projects\shinkenuu.teamfoundation\Report Tool\ReportTool\ReportTool.Model\obj\Debug\ReportTool.Model.pdb
