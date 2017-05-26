@@ -1,0 +1,2 @@
+openpyxl==2.4.7
+pymssql==2.1.3
